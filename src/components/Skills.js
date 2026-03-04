@@ -43,19 +43,19 @@ export const Skills = () => {
                 シンプルで使いやすいWebサイト制作を心がけています。</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="" />
                   <h5>Ai,Ps,Figma</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
+                  <img src={meter2} alt="" />
                   <h5>HTML,CSS,<br></br>Javascript,React</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter3} alt="" />
                   <h5>UI/UX</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
+                  <img src={meter1} alt="" />
                   <h5>Logo Design</h5>
                 </div>
               </Carousel>
@@ -63,7 +63,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }
