@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav, Button } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/wetland.png";
 import projImg2 from "../assets/img/shrine.jpeg";
-import projImg3 from "../assets/img/AllenWalker.svg";
+import projImg3 from "../assets/img/allenwalker.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
