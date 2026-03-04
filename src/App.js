@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import QRCode from "react-qr-code";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -18,12 +17,6 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
-      <QRCode
-        value="https://portfolio-nu-eosin-oftj930o3g.vercel.app/#projects"
-        size={200}
-        bgColor="#ffffff"
-        fgColor="#000000"
-      />
     </div>
   );
 }
